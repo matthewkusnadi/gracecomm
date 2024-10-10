@@ -1,0 +1,99 @@
+/* Beliefs Page Styles */
+
+.ourbeliefs {
+    background-color: #f7f7f7;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ourbeliefs h2 {
+    color: #2e3842;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.belieflist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.beliefitem {
+    background-color: #ffffff;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.beliefitem:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.belieftitle {
+    color: #2e3842;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.believepara {
+    color: #4e5a66;
+    line-height: 1.6;
+    margin-bottom: 0.5em;
+}
+
+.scripture {
+    font-style: italic;
+    color: #7a8793;
+    font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 736px) {
+    .ourbeliefs {
+        padding: 1em;
+    }
+
+    .beliefitem {
+        padding: 1em;
+    }
+}
+
+/* Additional styles to integrate with your existing theme */
+#main > header {
+    background-color: #2e3842;
+    color: #ffffff;
+}
+
+.wrapper.style5 {
+    background-color: #ffffff;
+    color: #4e5a66;
+}
+
+/* Ensure proper spacing within the main content area */
+#main > .wrapper.style5 > .inner {
+    padding-bottom: 3em;
+}
+
+/* Style for the "Need More Information?" section */
+.beliefitem:last-child {
+    background-color: #e8eaed;
+    text-align: center;
+}
+
+.beliefitem:last-child .belieftitle {
+    color: #2e3842;
+}
+
+.beliefitem:last-child .believepara a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.beliefitem:last-child .believepara a:hover {
+    text-decoration: underline;
+}
