@@ -1,0 +1,63 @@
+.ourbeliefs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.ourbeliefs h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.belieflist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.beliefitem {
+    margin-bottom: 3rem;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.belieftitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.believepara {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.scripture {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.crca {
+    color: #4a90e2;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .ourbeliefs {
+        padding: 1rem;
+    }
+
+    .belieftitle {
+        font-size: 1.3rem;
+    }
+
+    .believepara {
+        font-size: 0.9rem;
+    }
+}
