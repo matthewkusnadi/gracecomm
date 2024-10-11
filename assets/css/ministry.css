@@ -45,24 +45,4 @@
 .ministry-time {
     font-weight: bold;
     color: #333;
-    margin-top: 1rem;
-    font-size: 0.9rem;
-}
-
-@media screen and (max-width: 768px) {
-    .ministry-container {
-        padding: 1rem;
-    }
-
-    .ministry-item {
-        margin-bottom: 3rem;
-    }
-
-    .ministry-content h3 {
-        font-size: 1.5rem;
-    }
-
-    .ministry-content p {
-        font-size: 0.9rem;
-    }
-}
+    margin
